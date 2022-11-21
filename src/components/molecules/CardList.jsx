@@ -25,8 +25,8 @@ function CardList({ cards }) {
     );
 }
 
-export default CardList;
-
 CardList.propTypes = {
     cards: PropTypes.array.isRequired,
 };
+
+export default CardList;

@@ -8,8 +8,8 @@ const CardText = ({ text }) => {
     );
 };
 
-export default CardText;
-
 CardText.propTypes = {
     text: PropTypes.string,
 };
+
+export default CardText;

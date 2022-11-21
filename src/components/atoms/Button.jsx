@@ -13,8 +13,9 @@ const Button = ({ url, text }) => {
     );
 };
 
-export default Button;
-
-Button.defaultProps = {
-    url: '#',
+Button.propTypes = {
+    url: PropTypes.string,
+    text: PropTypes.string,
 };
+
+export default Button;

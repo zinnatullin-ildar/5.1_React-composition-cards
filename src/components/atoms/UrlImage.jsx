@@ -13,9 +13,9 @@ const UrlImage = ({ url }) => {
     );
 };
 
-export default UrlImage;
-
 UrlImage.propTypes = {
     url: PropTypes.string,
     text: PropTypes.string,
 };
+
+export default UrlImage;

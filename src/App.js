@@ -1,7 +1,6 @@
 import CardList from './components/molecules/CardList';
-import Card from './components/atoms/Card';
 import './App.css';
-import data from './data.json';
+import data from './data/data.json';
 
 function App() {
   return (

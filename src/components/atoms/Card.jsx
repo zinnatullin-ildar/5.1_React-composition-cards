@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
 import { Fragment } from 'react';
+import PropTypes from 'prop-types';
 
 function Card(data) {
     return (
@@ -13,8 +13,6 @@ function Card(data) {
     );
 }
 
-export default Card;
-
 Card.propTypes = {
     data: PropTypes.shape
         ({
@@ -23,3 +21,5 @@ Card.propTypes = {
             url: PropTypes.string,
         }),
 };
+
+export default Card;

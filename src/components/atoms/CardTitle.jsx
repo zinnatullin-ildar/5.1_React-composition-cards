@@ -8,8 +8,8 @@ const CardTitle = ({ title }) => {
     );
 };
 
-export default CardTitle;
-
 CardTitle.propTypes = {
     title: PropTypes.string,
 };
+
+export default CardTitle;
