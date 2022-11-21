@@ -1,7 +1,5 @@
 # Карточки
 
-===
-
 Вам необходимо реализовать компонент карточек, позволяющий использовать себя следующим образом:
 
 ![](https://github.com/netology-code/ra16-homeworks/raw/master/composition/cards/assets/card1.png)
